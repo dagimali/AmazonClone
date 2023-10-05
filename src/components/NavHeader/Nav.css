@@ -1,0 +1,23 @@
+/** @format */
+
+.ServiceLists {
+  background-color: #fff;
+}
+.ServiceLists ul li {
+  font-size: 1vw;
+}
+.ServiceLists h1 {
+  font-weight: 700;
+  font-size: large;
+}
+.ServiceLists ul {
+  padding-left: 2.5rem;
+}
+@media (max-width: 640px) {
+  .menuIcon {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    margin-right: 1rem;
+  }
+}

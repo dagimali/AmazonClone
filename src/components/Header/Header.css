@@ -1,0 +1,23 @@
+/** @format */
+
+.NavList {
+  display: none;
+}
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 10px; */
+}
+.nav-wrap {
+  width: 25rem;
+  justify-content: space-between;
+}
+.accountList ul li {
+  font-size: 0.875rem;
+}
+@media (max-width: 640px) {
+  .header-wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
